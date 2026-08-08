@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python virtualenv & bytecode
+venv/
+**/venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Build output
+.next/
+**/.next/
+dist/
+build/
+*.tsbuildinfo
+
+# Local env — never track credentials
+.env
+.env.*
+!.env.example
+
+# Local databases and model/data artifacts
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+
+# OS / editor noise
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+*.swp
